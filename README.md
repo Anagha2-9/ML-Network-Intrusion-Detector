@@ -55,10 +55,9 @@ NetworkIntrusionDetection/
 ├── Anagha_NetworkIntrusionDetection.ipynb   ← main notebook
 ├── requirements.txt                          ← Python dependencies
 ├── README.md                                 ← this file
-├── models/
-│   ├── lr_pipeline.pkl                       ← saved Logistic Regression pipeline
-│   ├── rf_pipeline.pkl                       ← saved Random Forest pipeline
-│   └── best_pipeline.pkl                     ← best model (chosen by validation F1)
+├── lr_pipeline.pkl
+├── rf_pipeline.pkl
+├── best_pipeline.pkl
 ├── KDDTrain+.txt                             ← downloaded on first run
 ├── KDDTest+.txt                              ← downloaded on first run
 ├── class_distribution.png                    ← EDA figure
